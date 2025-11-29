@@ -1,0 +1,17 @@
+model:
+  name: "FNO3d_Cryo"
+  modes: 8
+  width: 20
+  input_channels: 3   # Geometry, Wall_Temp, Pressure
+  output_channels: 2  # Liquid_Fraction, Temperature
+
+training:
+  batch_size: 4
+  epochs: 20
+  learning_rate: 0.001
+  save_dir: "checkpoints"
+
+physics:
+  fluid: "nitrogen"
+  saturation_temp: 77.0
+  lee_coeff: 0.1
