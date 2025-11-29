@@ -33,3 +33,9 @@ This repository implements a **Physics-Informed Neural Operator (FNO)** to act a
 *   `src/models/`: Neural Network architectures.
 *   `src/physics/`: Loss functions and thermodynamic equations.
 *   `data/`: Storage for VTK/Numpy files.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+--------
