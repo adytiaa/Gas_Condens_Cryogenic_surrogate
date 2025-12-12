@@ -1,6 +1,8 @@
-# Surrogate Models for Simulation of Gas Condensation in Cryogenic Vessels ❄️🤖
+# Surrogate Models for Simulation of Gas Condensation in Cryogenic Vessels 
 
-**AI-Driven Agent for Cryogenic Gas Condensation (PI-GANO / FNO approach).**
+![onnes-condes.jpg]()
+
+**Agent for Cryogenic Gas Condensation (PI-GANO / FNO approach)**
 
 This repository implements a **Physics-Informed Neural Operator (FNO)** to act as a surrogate solver for cryogenic fluid dynamics. It predicts liquid formation (condensation) in 3D vessels instantly, replacing slow CFD simulations (OpenFOAM/Ansys).
 
@@ -24,12 +26,12 @@ This repository implements a **Physics-Informed Neural Operator (FNO)** to act a
     python scripts/train.py
     ```
 
-## 🧠 Architecture
+## Architecture
 *   **Model:** 3D Fourier Neural Operator (FNO). Learns resolution-independent solution operators.
 *   **Physics:** Implements Lee Model constraints for Phase Change (Gas -> Liquid).
 *   **Agent:** Automates the loop of Geometry -> Inference -> Analysis.
 
-## 📂 Folder Structure
+## Folder Structure
 *   `src/models/`: Neural Network architectures.
 *   `src/physics/`: Loss functions and thermodynamic equations.
 *   `data/`: Storage for VTK/Numpy files.
@@ -38,4 +40,4 @@ This repository implements a **Physics-Informed Neural Operator (FNO)** to act a
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
---------
+---------------------------------------------------
