@@ -1,6 +1,6 @@
 # Surrogate Models for Simulation of Gas Condensation in Cryogenic Vessels 
 
-![onnes-condes.jpg]()
+![Cryogenic Vessels- Onnes](onnes-condes.jpg)
 
 **Agent for Cryogenic Gas Condensation (PI-GANO / FNO approach)**
 
